@@ -13,7 +13,7 @@ import { AuthService } from './services/auth.service';
 import { AuthGuardService } from './services/auth-guard.service';
 import { BooksService } from './services/books.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {  HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
 
 const appRoutes: Routes = [
@@ -35,8 +35,7 @@ const appRoutes: Routes = [
     HeaderComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
+    BrowserModule,    
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
