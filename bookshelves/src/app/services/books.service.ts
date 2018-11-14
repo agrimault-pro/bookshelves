@@ -9,7 +9,7 @@ import * as firebase from 'firebase';
 export class BooksService {
 
   books: Book[] = [];
-  booksSubject: Subject<Book[]>;
+  booksSubject = new Subject<Book[]>();
 
   constructor() { }
 
